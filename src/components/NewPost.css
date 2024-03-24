@@ -1,0 +1,52 @@
+/* ============== NewPost Stylesheet start =============== */
+
+#newpostContainer {
+   margin: 50px 80px;
+   height: 70vh;
+}
+
+h1.newpostHeading {
+   font-size: 28px;
+   font-weight: bold;
+}
+
+input#inputValue {
+   width: 200px;
+}
+
+#newpostButton {
+   background-color: #027e7e;
+   border-color: #027e7e;
+}
+
+#newpostInput {
+   font-size: 14px;
+   padding: 15px 20px;
+   border-radius: unset;
+   margin: 20px auto;
+}
+
+.newpostCanvas {
+   width: 650px;
+   height: auto;
+}
+
+.newpostContainer2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 78vh;
+}
+
+.newpostContainer1 {
+   height: 78vh;
+}
+
+.newpostImage {
+   width: 650px;
+   height: auto;
+   padding: 20px;
+   position: absolute;
+}
+
+/* ============== NewPost Stylesheet end =============== */

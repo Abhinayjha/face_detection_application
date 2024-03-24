@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.bodyContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 79vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bodyContent {
+   background-color: white;
+   width: 330px;
+   height: 130px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bodyImage {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profileImage {
+   width: 66px;
+   height: 60px;
+   border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.imageInput {
+   font-weight: 400;
+   border: none;
+   outline: none;
+   margin-top: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputBorder {
+    border: 1.5px solid #5b5b5b;
+    width: 200px;
+}
+
+svg {
+   width: 30px;
+   cursor: pointer;
+}
+
+#inputButton {
+   background-color: #027e7e;
+   border-color: #027e7e;
+}
+
+#fileInput {
+   display: none;
 }
